@@ -12,7 +12,7 @@ typealias MutexData = [String: Any]
 
 enum MutexError: String, Error {
     case badRequestBodyData = "Could not get data from request body"
-    case badRequestJSON = "Culd not parse the data from the request body"
+    case badRequestJSON = "Culd not parse data from request body"
     case badRequestUUID = "Could not get UUID from request body"
 }
 
